@@ -246,7 +246,104 @@ section{
 #projects
 {
     background-color: #1D1E23;
+
 }
+
+.projects .content
+{
+    margin-top: 30px;
+}
+.projects .prj-card
+{
+    background-color: #2c2d35;
+    border: solid 1px #BD53ED;
+    min-height: 14em;
+    width: 25em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: .7s ease; 
+}
+
+span{
+    transition: .7s ease;
+}
+
+.prj-cat
+{
+    transition: .7s ease;
+}
+
+.projects .prj-card:hover
+{
+    transform: scale(1.05);
+    background-color: #BD53ED;
+}
+
+.projects .prj-card:hover a {
+    color: #1D1E23;
+}
+
+.projects .prj-card:hover .prj-cat {
+    color: #fff;
+}
+
+.projects .prj-card:hover span
+{
+ color: #fff;
+}
+
+.projects .prj-card a:hover
+{
+    color: rgb(0, 0, 0);
+}
+
+
+.prj-img
+{
+    transition: .7s ease;
+}
+
+.prj-img img 
+{
+    width: 100%;
+}
+
+.prj-info 
+{
+    padding: 1em;
+    transition: .7s ease;
+}
+
+.prj-info .prj-cat
+{
+    font-size: 1.2em;
+    color: #BD53ED;
+    font-weight: 700;
+}
+
+.prj-title
+{
+    display: flex;
+    justify-content: space-between;
+    color: #BD53ED;
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: 800;
+    gap: 20px;
+}
+.prj-title a 
+{
+    text-decoration: none;
+    color: #BD53ED;
+    transition: .7s ease;
+}
+
+
+/* .prj-card .prj-info .prj-title .more-details :hover
+{
+    color: #fff;
+} */
 
 /*----- Contact section ------*/
 

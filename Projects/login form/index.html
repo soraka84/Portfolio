@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form | Seif Ahmed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toggle">
+        <input type="checkbox" id="toggleBtn">
+        <label for="togglebtn">
+            <img src="images/icons8-sun-16.png" alt="sun" class="icon sun">
+            <img src="images/icons8-moon-48.png" alt="moon" class="icon moon">
+        </label>
+    </div>
+    <div class="countainer">
+    <div class="center">
+            <h1>Login</h1>
+            <form method="post">
+                <div class="txt-feild">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt-feild">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass"><a href="#">Forget passowrd ?</a></div>
+                <input type="submit" value="Login">
+                <div class="signup-link">Not a member ?
+                    <a href="#">Sign up</a>
+                </div>
+            </form>
+    </div>
+    </div>
+<script>
+ let toggleBtn = document.querySelector("#toggleBtn");
+
+    let bodyEl = document.querySelector("body");
+
+    let darkMode = false;
+
+    toggleBtn.addEventListener('change', (event) => {
+      darkMode = event.target.checked;
+      if(darkMode) {
+        bodyEl.classList.add("dark");
+      } else {
+        bodyEl.classList.remove("dark");
+      }
+    })</script>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
