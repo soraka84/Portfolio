@@ -1,3 +1,7 @@
+// Created by Seif Ahmed
+
+
+
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
